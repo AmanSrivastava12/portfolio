@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerskill {
+  margin-top: 80px;
+}
+.headskill {
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(68, 109, 136);
+  color: rgb(196, 242, 255);
+  font-size: 1.5em;
+  padding: 10px;
+  font-family: var(--font4);
+  letter-spacing: 0.08em;
+  word-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+.skills {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subheadlength {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  font-family: var(--font3);
+  font-size: 1.2em;
+  padding: 40px 5px 0px 5px;
+  color: rgb(0, 78, 131);
+}
+.subheadskill {
+  padding-bottom: 4px;
+  width: 70%;
+}
+.length {
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+}
+.skill-bar {
+  width: 80%;
+  height: 15px;
+  background-color: rgb(68, 109, 136);
+}
+.c,
+.cplusplus,
+.java,
+.python,
+.htm,
+.css,
+.javascript,
+.php,
+.ms-word,
+.ms-excel,
+.my-sql,
+.dsa {
+  height: 15px;
+  background-color: rgb(148, 180, 189);
+  z-index: 10;
+}
+.c {
+  width: 40%;
+}
+.cplusplus {
+  width: 80%;
+}
+.java {
+  width: 80%;
+}
+.python {
+  width: 20%;
+}
+.htm {
+  width: 80%;
+}
+.css {
+  width: 60%;
+}
+.javascript {
+  width: 20%;
+}
+.php {
+  width: 30%;
+}
+.ms-word {
+  width: 60%;
+}
+.ms-excel {
+  width: 60%;
+}
+.my-sql {
+  width: 30%;
+}
+.dsa {
+  width: 60%;
+}

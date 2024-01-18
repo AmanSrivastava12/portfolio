@@ -1,0 +1,31 @@
+extends base.pug
+
+block content
+    style
+      include ../static/css/homestyle.css
+    style
+      include ../static/css/responsive.css
+    .containeridx
+      .profile
+        img(src='../static/images/profile.png', alt='profile image')
+      .intro
+        h3.intro-text
+          | HELLO, I AM
+          br
+          | AMAN SRIVASTAVA,
+          br
+          | AN ASPIRING
+          br
+          | WEB DEVELOPER
+          br
+          | AND A COMPUTER
+          br
+          | ENGINEERING STUDENT.
+    .education
+      p#headingedu CURRENTLY PURSUING BACHELOR OF TECHNOLOGY
+      p from Bharati Vidyapeeth (Deemed to be University), PUNE
+      p (2019-present)
+    .schooling
+      p#headingsch SUCCESSFULLY COMPLETED MY SCHOOLING
+      p from St. Mary&apos;s Convent Inter College, LUCKNOW
+      p In the year 2019

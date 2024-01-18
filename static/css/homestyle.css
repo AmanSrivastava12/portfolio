@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containeridx {
+  display: flex;
+  margin: 40px;
+}
+.profile {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  width: 60%;
+  margin-left: 35px;
+  display: flex;
+}
+.profile img {
+  width: 350px;
+  height: 420px;
+}
+.intro-text {
+  font-size: 3em;
+  color: #205a85;
+  font-family: var(--font1);
+  letter-spacing: 0.08em;
+  line-height: 65px;
+}
+.education,
+.schooling {
+  background-color: rgb(161, 171, 188);
+  text-align: center;
+  margin: 70px 0;
+  padding: 20px;
+}
+#headingedu,
+#headingsch {
+  padding-bottom: 12px;
+  font-size: 1.6em;
+  color: rgb(36, 104, 146);
+  font-weight: bold;
+  font-family: var(--font4);
+}
+.education p,
+.schooling p {
+  color: #014c1b;
+  font-size: 1em;
+  font-family: var(--font4);
+}
