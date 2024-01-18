@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containercourse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coursehead {
+  font-family: var(--font4);
+  color: #205a85;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 80px 0 20px 0;
+  width: 90%;
+  text-align: center;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.4rem;
+}
+.list {
+  width: 80%;
+}
+.course {
+  display: flex;
+  width: 100%;
+  background-color: rgb(215, 249, 249);
+  margin-top: 25px;
+  justify-content: space-between;
+  box-shadow: 10px 10px 8px #3b776d;
+  font-size: 1.1em;
+  font-family: var(--font3);
+}
+.list a {
+  color: rgb(26, 75, 108);
+  padding: 20px;
+  text-decoration: none;
+  width: 70%;
+}
+.list a:hover {
+  color: rgb(0, 67, 45);
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  color: rgb(26, 75, 108);
+  width: 20%;
+}
+
+.view {
+  color: #205a85;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 50px;
+  font-family: var(--font1);
+}

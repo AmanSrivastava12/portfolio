@@ -1,0 +1,32 @@
+doctype html
+html.total
+  head
+    meta(content='width=device-width' initial-scale='1' shrink-to-fit='no' name='viewport')
+    title Aman Srivastava
+    link(rel='apple-touch-icon', sizes='180x180', href='../static/fav/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='../static/fav/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='../static/fav/favicon-16x16.png')
+    link(rel='manifest', href='../static/fav/site.webmanifest')
+  body
+    style
+      include ../static/css/basestyle.css
+    h1#mainheading PORTFOLIO
+    a.icon(href='javascript:void(0);')
+      i.fa.fa-bars.fa-2xs
+    nav.navbar
+      a(href='/') HOME
+      a(href='experience') EXPERIENCE
+      a(href='courses') COURSES
+      a(href='skills') SKILLS
+      a(href='projects') PROJECTS
+      a(href='about') ABOUT
+      a(href='contact') CONTACT
+    block content
+    .copyright
+      p
+        | &copy;&nbsp;
+        span Developed by
+        |  Aman Srivastava
+    script(src='../static/portfolio.js')
+    script(src='https://kit.fontawesome.com/c733fc0f10.js', crossorigin='anonymous')
+    script(src='https://smtpjs.com/v3/smtp.js')

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerpro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.containerpro h3 {
+  color: #005a5b;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  padding: 10px;
+  font-family: var(--font4);
+  letter-spacing: 0.08em;
+  word-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+.projectlabel {
+  display: flex;
+  width: 80%;
+  background-color: rgb(34, 52, 77);
+  margin-top: 40px;
+  border: 2px solid #00614c;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font3);
+  font-size: 1.3em;
+  padding: 20px 12px;
+}
+.projectlabel a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  width: 60%;
+}
+.projectlabel a:hover {
+  color: #00ffc8;
+}
+.projectlabel p {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  color: rgb(200, 200, 200);
+}
+.git {
+  margin-top: 80px;
+  text-align: center;
+}
+.git h4 {
+  font-size: 1.6em;
+  font-family: var(--font2);
+  color: #005a5b;
+  padding: 0 20px;
+}
+.git img {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+}

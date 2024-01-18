@@ -1,0 +1,49 @@
+extends base.pug
+
+block content
+    style
+      include ../static/css/constyle.css
+    style
+      include ../static/css/responsive.css
+    .containercontact1
+      .mailcombine
+        h4.mainheadcontact Let&apos;s talk about your project
+        .gmail
+          img(src='../static/images/gmail.png', alt='gmail icon')
+          h5 amansriv12@gmail.com
+      .containerlinks
+        a.letusconnect(href='#connect') Let&apos;s Connect
+        .otherlinksrow
+          .otherlinkssubrow
+            a(href='https://www.linkedin.com/in/aman-srivastava-320601215/', target='_blank')
+              img(src='../static/images/linkedin.png', alt='linkedin icon')
+            a(href='https://www.instagram.com/_aman__srivastava_/', target='_blank')
+              img(src='../static/images/instagram.png', alt='instagram icon')
+          .otherlinkssubrow
+            a(href='https://medium.com/@amansriv', target='_blank')
+              img(src='../static/images/medium.png', alt='medium icon')
+            a(href='https://twitter.com/AmanSriv12', target='_blank')
+              img(src='../static/images/twitter.png', alt='twitter icon')
+        .otherlinksrow
+          .otherlinkssubrow
+            a(href='https://auth.geeksforgeeks.org/user/amansriv12/profile', target='_blank')
+              img(src='../static/images/geeksforgeeks.png', alt='GFG icon')
+            a(href='https://www.hackerrank.com/amansriv12?hr_r=1', target='_blank')
+              img(src='../static/images/hackerrank.png', alt='hackerrank icon')
+          .otherlinkssubrow
+            a(href='https://leetcode.com/amansri12/', target='_blank')
+              img(src='../static/images/leetcode.png', alt='leetcode icon')
+            a(href='https://www.hackerearth.com/@aman5012', target='_blank')
+              img(src='../static/images/hackerearth.png', alt='hackerearth icon')
+    #connect.containercontact2
+      .app-title
+        span LET&apos;S
+        br
+        span CONNECT
+      form#connect-form(method='POST', action='/contact' autocomplete="off")
+        input.sattributes(type='text', name='name', placeholder='NAME' required)
+        input.sattributes(type='email', name='email', placeholder='EMAIL' required)
+        textarea.sattributes.textmsg(name='message', placeholder='MESSAGE' maxlength='500' rows='12' required)
+        .characterlimit 0 / 500
+        .submitform
+          input(type='submit', value='SUBMIT')

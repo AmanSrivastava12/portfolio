@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+  --font7: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containercontact1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.mailcombine {
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  border: 2px solid rgb(36, 22, 90);
+  margin-bottom: 50px;
+  font-family: var(--font4);
+}
+.mainheadcontact {
+  font-size: 2em;
+  color: #014e70;
+}
+.gmail {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.gmail img {
+  width: 30px;
+  height: 30px;
+}
+.gmail h5 {
+  font-size: 1.3em;
+  color: #000000;
+  padding-left: 10px;
+}
+.containerlinks {
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(36, 22, 90);
+  padding: 40px 40px 80px 40px;
+}
+.letusconnect {
+  font-family: var(--font4);
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  color: #00b8b1;
+  text-decoration: none;
+}
+.letusconnect:hover {
+  color: #014e70;
+}
+.otherlinksrow {
+  display: flex;
+  margin-top: 50px;
+}
+.otherlinkssubrow {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.otherlinksrow img {
+  width: 65px;
+  height: 60px;
+}
+.containercontact2 {
+  display: flex;
+  width: 100%;
+  background: #208285;
+  padding: 50px;
+  margin-top: 50px;
+  scroll-behavior: auto !important;
+}
+.app-title,
+input,
+textarea {
+  font-family: var(--font7);
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+#connect-form {
+  width: 50%;
+}
+.app-title {
+  color: #004846;
+  font-size: 1.8em;
+  width: 50%;
+}
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 15px;
+}
+textarea {
+  resize: none;
+}
+.characterlimit {
+  color: #004846;
+  text-align: right;
+  padding: 2px;
+}
+.submitform {
+  text-align: right;
+  padding-top: 40px;
+}
+.sattributes {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #004846;
+  color: #ddd;
+  font-size: 0.9em;
+  transition: border-color 0.2s;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #004846;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-bottom-color: #ddd;
+}
+input[type="submit"] {
+  background: none;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  color: #004846;
+}

@@ -1,0 +1,236 @@
+@media (min-width: 750px) and (max-width: 950px) {
+  .navbar {
+    display: none;
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .navbar a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+  }
+  #mainheading {
+    text-align: left;
+    padding-left: 60px;
+  }
+  .icon {
+    background-color: rgb(0, 79, 73);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+  }
+
+  .profile img {
+    width: 250px;
+    height: 310px;
+  }
+  .intro-text {
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+    line-height: 50px;
+  }
+  #headingedu,
+  #headingsch {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 749px) {
+  .navbar {
+    display: none;
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .navbar a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+  }
+  #mainheading {
+    text-align: left;
+    padding-left: 35px;
+    font-size: 2.5em;
+  }
+  .icon {
+    background-color: rgb(0, 79, 73);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  }
+
+  .profile img {
+    width: 200px;
+    height: 250px;
+  }
+  .intro-text {
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    line-height: 35px;
+  }
+  #headingedu,
+  #headingsch {
+    font-size: 1em;
+  }
+  .abtcontainer {
+    margin: 100px 50px 0px 50px;
+  }
+  .app-title {
+    width: 35%;
+    font-size: 1.2em;
+  }
+  #connect-form {
+    width: 65%;
+  }
+}
+
+@media (max-width: 499px) {
+  .navbar {
+    display: none;
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .navbar a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+  }
+  #mainheading {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2em;
+  }
+  .icon {
+    background-color: rgb(0, 79, 73);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  }
+
+  .containeridx {
+    flex-direction: column;
+    margin: 0;
+  }
+  .profile {
+    width: 100%;
+  }
+  .intro {
+    margin: 30px 0 0 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .profile img {
+    width: 250px;
+    height: 310px;
+  }
+  .intro-text {
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+    line-height: 35px;
+  }
+  .education,
+  .schooling {
+    padding: 20px 30px;
+  }
+  #headingedu,
+  #headingsch {
+    font-size: 1em;
+  }
+  .education p,
+  .schooling p {
+    font-size: 0.8em;
+  }
+  .containerexp {
+    margin-top: 50px;
+  }
+  .headexp {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  .coursehead {
+    font-size: 1.5em;
+  }
+  .headskill {
+    font-size: 1.2em;
+  }
+  .projectlabel {
+    font-size: 1em;
+  }
+  .abtcontainer {
+    margin: 80px 30px 0px 30px;
+  }
+  .abtcontainer p {
+    font-size: 1.3em;
+  }
+  .mainheadcontact {
+    font-size: 1.5em;
+  }
+  .gmail h5 {
+    font-size: 1em;
+  }
+  .otherlinksrow {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .otherlinkssubrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .app-title {
+    display: none;
+  }
+  #connect-form {
+    width: 100%;
+  }
+  .copyright {
+    font-size: 0.9em;
+  }
+}

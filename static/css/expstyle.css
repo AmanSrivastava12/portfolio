@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@700&family=Exo+2:wght@300&family=Merriweather&family=Permanent+Marker&family=Rowdies&display=swap");
+:root {
+  --font1: "Acme", sans-serif;
+  --font2: "Caveat", cursive;
+  --font3: "Exo 2", sans-serif;
+  --font4: "Merriweather", serif;
+  --font5: "Permanent Marker", cursive;
+  --font6: "Rowdies", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  margin-right: -34%;
+} */
+.containerexp {
+  margin-top: 100px;
+}
+.headexp {
+  text-align: center;
+  background-color: rgb(120, 126, 132);
+  color: #0f5351;
+  font-size: 1.5em;
+  margin-top: 40px;
+  padding: 10px;
+  font-family: var(--font6);
+}
+.subheadexp {
+  width: 60%;
+  font-size: 1.1em;
+  font-family: var(--font3);
+  color: #244540;
+}
+.subheadexp span {
+  font-size: 1em;
+  padding-left: 10px;
+  color: #000000;
+}
+.containerexp p {
+  padding: 12px 50px;
+  font-family: var(--font4);
+  font-size: 0.9em;
+  color: #415653;
+}
+.internexp {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: rgb(134, 149, 144);
+}
+.internexp a {
+  text-align: end;
+  width: 30%;
+  font-size: 1em;
+  font-family: var(--font4);
+  color: #ffffff;
+  text-decoration: none;
+}
+.internexp a:hover {
+  color: #00614c;
+}
