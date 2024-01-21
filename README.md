@@ -16,3 +16,6 @@ How to generate app password for your email (gmail) -
 
 Short Summary -
 It is a Portfolio Project that contains info about me. The primary purpose of this project was to introduce a person to other people. A resume cannot summarize all your achievements, hobbies among other things, but, this project can.
+
+Technologies used -
+CSS, Javascript and Pug template engine
