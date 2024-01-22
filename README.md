@@ -1,4 +1,4 @@
-Portfolio :
+PORTFOLIO :
 
 How to setup this project on your device -
 > Clone this project to your device or download the zip file and then extract it.
